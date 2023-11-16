@@ -11,9 +11,9 @@ function App() {
         <p>
           Hæ! Ég veit hvar þú ert...
         </p>
-        <a>
+        <div>
           <CurrentLocation/>
-        </a>
+        </div>
       </header>
     </div>
   );
