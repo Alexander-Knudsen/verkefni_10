@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import logo from './sid_the_sloth.jpg';
 import './App.css';
+import CurrentLocation from './CurrentLocation';
+
 
 function App() {
   return (
@@ -7,15 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hæ! Ég veit hvar þú ert...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a>
+          <CurrentLocation/>
         </a>
       </header>
     </div>
